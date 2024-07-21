@@ -36,6 +36,12 @@
     padding: 0 30px 30px;
     color: #333;
     visibility: hidden;
+    transition: all 0.4s;
+}
+.container .popupElem.open-popup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50% , -50%) scale(1);
 }
 .container .popupElem .popupImg{
     width: 100px;
