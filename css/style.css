@@ -25,7 +25,7 @@
 }
 
 .container .popupElem{
-    width: 400px;
+    min-width: 350px;
     background: #fff;
     border-radius: 6px;
     position: absolute;
